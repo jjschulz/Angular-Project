@@ -3,12 +3,13 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "moduleResolution": "nodenext", 
     "outDir": "./out-tsc/app",
     "types": []
   },
   "include": [
     "src/**/*.ts"
-  ],
+, "src/main.mts"  ],
   "exclude": [
     "src/**/*.spec.ts"
   ]
