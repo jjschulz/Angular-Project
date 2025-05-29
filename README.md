@@ -9,6 +9,7 @@ To start a local development server, run:
 ```bash
 ng serve
 ```
+* Make sure to have Node.js and Git installed before serving, and run 'npm install' in root directory to install any dependencies
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
